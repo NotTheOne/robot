@@ -2,6 +2,8 @@
 <head>
 		<link href='http://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
 
+		<script src="/assets/jquery.js"></script>
+
 	<title>Robot</title>
 	<h1>Robot</h1>
 	<p>This robot is here to help you, just ask away and he'll will look on the interweb for as much information as possible in order to satisfy your hunger of knowledge.</p>
@@ -17,6 +19,13 @@
 		<div class="foot"></div>
 	</div>
 
+	<button class="flash">laser eyes on/off</button>
+
+<script>
+  $('.flash').click(function() {
+    $('.brain').toggleClass('laser');
+  });
+</script>
 
 </body>
 </html>

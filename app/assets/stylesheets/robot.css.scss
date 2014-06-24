@@ -17,7 +17,7 @@ h1, p {
 	left: 140px;
 }
 
-/*@keyframes blink{
+@keyframes blink{
 		50% {
 		background: radial-gradient(circle,red 15%, transparent 40%), #cc5;
 		}
@@ -31,11 +31,15 @@ h1, p {
 		50% {
 		background: -moz-radial-gradient(circle,red 15%, transparent 40%), #cc5;
 		}
-	}*/
-.brain {
+	}
+
+.laser {
 	animation: blink .5s infinite;
 	-webkit-animation: blink .5s infinite;
 	-moz-animation: blink .5s infinite;
+}
+
+.brain {
 	background: radial-gradient(circle,white 15%, transparent 40%), #cc5;
 	background-size: 75px 150px;
   height: 150px;
@@ -99,3 +103,7 @@ h1, p {
   top: -620px;
   z-index: -1;
 }
+
+// body {
+// 	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2013/12/autocad-wallpaper-6.jpg")
+// }

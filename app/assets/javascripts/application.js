@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+$('.flash').click(function() {
+    $('.brain').toggleClass('laser');
+  });
